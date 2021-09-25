@@ -55,6 +55,8 @@ void draw()
  }
 }
 }
+
+
 void mousePressed()
 {
  startX = ((int)(Math.random()*401));
