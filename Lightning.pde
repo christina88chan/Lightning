@@ -54,13 +54,13 @@ void draw()
      ellipse(175,210,20,20);
  }
 }
+
+   if(keyPressed){
+  if(key == ' '){
+    startX = ((int)(Math.random()*401));
+    startY = 0;
+    endX = 200;
+    endY = 0;
+  }
 }
-
-
-void mousePressed()
-{
- startX = ((int)(Math.random()*401));
- startY = 0;
- endX = 200;
- endY = 0;
 }
