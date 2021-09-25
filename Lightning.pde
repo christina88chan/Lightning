@@ -19,9 +19,9 @@ void draw()
    startY = endY;
  }
      //mouth
-     stroke(0, 97, 172);
+     stroke(0);
      fill(0);
-     arc(200, 170, 250, 190, 0, PI, PIE); 
+     arc(200, 170, 250, 190, 0, PI); 
      //eye
      fill(255);
      stroke(255);
